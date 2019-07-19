@@ -14,6 +14,7 @@ namespace pnpWebAPI_Project.Models
     
     public partial class User
     {
+        public int id { get; set; }
         public string Email { get; set; }
         public string Title { get; set; }
         public string FirstName { get; set; }
